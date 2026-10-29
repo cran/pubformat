@@ -1,8 +1,15 @@
 Package: pubformat
 Title: Publication-Ready Formatting for Statistical Results
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: person("RJ", "Ballotti", email = "rballotti@coastal.edu", role = c("aut", "cre"))
-Description: Provides tools for converting statistical results into consistent, publication-ready character output. Current functionality includes formatting p-values, confidence intervals, and correlation coefficients using publication-friendly conventions. The package emphasizes consistent reporting while preserving the underlying statistical results and statistical decision-making.
+Description: Provides tools for converting already-computed statistical results
+    into consistent, publication-ready character output. Supports p-values,
+    confidence intervals, correlation coefficients, percentages, test
+    statistics, and commonly reported effect sizes, with optional confidence
+    intervals and multiple output styles for selected statistical symbols.
+    The package emphasizes separation of statistical calculation,
+    interpretation, and publication formatting so that reporting choices do
+    not alter the underlying numeric results or inferential decisions.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
@@ -12,8 +19,8 @@ URL: https://github.com/Reynolds826/pubformat
 BugReports: https://github.com/Reynolds826/pubformat/issues
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2026-09-22 19:54:56 UTC; rballotti
+Packaged: 2026-10-29 18:39:37 UTC; rballotti
 Author: RJ Ballotti [aut, cre]
 Maintainer: RJ Ballotti <rballotti@coastal.edu>
 Repository: CRAN
-Date/Publication: 2026-10-02 10:50:02 UTC
+Date/Publication: 2026-10-29 20:40:09 UTC
